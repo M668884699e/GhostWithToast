@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/GhostWithToast/static/css/main.f3836e06.css",
-    "main.js": "/GhostWithToast/static/js/main.1f2854ab.js",
+    "main.js": "/GhostWithToast/static/js/main.0cacdac8.js",
     "static/media/clouds.png": "/GhostWithToast/static/media/clouds.3c700c1313cc1cd3d3c5.png",
     "static/media/ghostwithtoastlogo.png": "/GhostWithToast/static/media/ghostwithtoastlogo.b2712a8621bf33c213a3.png",
     "static/media/Background.webp": "/GhostWithToast/static/media/Background.abd3e5084c20a32c796d.webp",
@@ -13,6 +13,6 @@
   },
   "entrypoints": [
     "static/css/main.f3836e06.css",
-    "static/js/main.1f2854ab.js"
+    "static/js/main.0cacdac8.js"
   ]
 }
