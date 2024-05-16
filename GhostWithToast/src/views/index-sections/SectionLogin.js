@@ -38,9 +38,9 @@ function SectionLogin() {
                         <div className="nft-info text-center">
                           <h5>{item.name}</h5>
                           <p>{item.price}</p>
-                          <Button className="btn-round" color="primary">
+                          {/* <Button className="btn-round" color="primary">
                             View Details
-                          </Button>
+                          </Button> */}
                         </div>
                       </div>
                     </Col>
@@ -50,7 +50,7 @@ function SectionLogin() {
                   <Button
                     className="btn-round"
                     color="neutral"
-                    href="/marketplace"
+                    href=""
                     size="lg"
                     target="_blank"
                   >

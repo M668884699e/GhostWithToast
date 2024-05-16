@@ -78,6 +78,9 @@ function SectionCarousel() {
   return (
     <>
       <div className="section pt-0" id="carousel">
+        <h4 className="text-center">
+          Upcoming Games
+        </h4>
         <Container>
           <Row>
             <Col className="ml-auto mr-auto" md="8">

@@ -93,18 +93,30 @@
 }
 
 /* Carousel Caption */
-.carousel-caption {
-    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
-    padding: 10px;
-    border-radius: 5px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Text shadow for better readability */
-}
-
-.carousel-caption h5,
-.carousel-caption p {
-    color: #fff; /* White color for better contrast */
-}
-
-.carousel-caption p {
-    font-weight: bold; /* Make the caption text bold */
-}
+.section {
+    text-align: center;
+  
+    h4 {
+      text-align: center;
+      margin-bottom: 20px;
+      font-size: 24px;
+      font-weight: bold;
+    }
+  }
+  
+  .carousel-caption {
+      background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+      padding: 10px;
+      border-radius: 5px;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Text shadow for better readability */
+  }
+  
+  .carousel-caption h5,
+  .carousel-caption p {
+      color: #fff; /* White color for better contrast */
+  }
+  
+  .carousel-caption p {
+      font-weight: bold; /* Make the caption text bold */
+  }
+  
