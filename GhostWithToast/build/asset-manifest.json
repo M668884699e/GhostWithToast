@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/GhostsN-Toasts/static/css/main.f3836e06.css",
+    "main.js": "/GhostsN-Toasts/static/js/main.441647c4.js",
+    "static/media/clouds.png": "/GhostsN-Toasts/static/media/clouds.3c700c1313cc1cd3d3c5.png",
+    "static/media/ghostwithtoastlogo.png": "/GhostsN-Toasts/static/media/ghostwithtoastlogo.b2712a8621bf33c213a3.png",
+    "static/media/Background.webp": "/GhostsN-Toasts/static/media/Background.abd3e5084c20a32c796d.webp",
+    "static/media/fog-low.png": "/GhostsN-Toasts/static/media/fog-low.965eab52c95e117d1d45.png",
+    "static/media/carousel_pic_3.webp": "/GhostsN-Toasts/static/media/carousel_pic_3.ed2a2923181f2bbfef2f.webp",
+    "static/media/carousel_pic_2.webp": "/GhostsN-Toasts/static/media/carousel_pic_2.f8a62697aa4320e5b60f.webp",
+    "static/media/carousel_pic_1.webp": "/GhostsN-Toasts/static/media/carousel_pic_1.49511eceec6a804ebc58.webp",
+    "index.html": "/GhostsN-Toasts/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.f3836e06.css",
+    "static/js/main.441647c4.js"
+  ]
+}
