@@ -52,7 +52,7 @@ function IndexNavbar() {
             {/* Ghost With Toast ($GWT.X) */}
           </NavbarBrand>
 
-          <NavbarBrand data-placement="bottom" href="/index" target="_blank">
+          <NavbarBrand data-placement="bottom" href="" target="_blank">
             Buy Ghosts N' Toasts ($GNT.X)
           </NavbarBrand>
 
