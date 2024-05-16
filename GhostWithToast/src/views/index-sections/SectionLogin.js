@@ -1,21 +1,16 @@
-
 import React from "react";
+import { Button, Container, Row, Col } from "reactstrap";
 
-// reactstrap components
-import {
-  Button,
-  Card,
-  Form,
-  Input,
-  InputGroupAddon,
-  InputGroupText,
-  InputGroup,
-  Container,
-  Row,
-  Col,
-} from "reactstrap";
-
-// core components
+const nftItems = [
+  { name: 'Avocado Ghost', price: '0.7 ICP', image: 'avoc_ghost.webp' },
+  { name: 'Bronze Tier Ghost', price: '0.9 ICP', image: 'bronze_tier_ghost.webp' },
+  { name: 'Diamond Ghost', price: '1.2 ICP', image: 'diamondghost.webp' },
+  { name: 'Gamestop Baby Ghost', price: '0.8 ICP', image: 'gamestop_baby_ghost.webp' },
+  { name: 'God Tier Ghost', price: '2.5 ICP', image: 'godtierghost.webp' },
+  { name: 'Gold Diamond Ghost', price: '1.5 ICP', image: 'golddiamondghost.webp' },
+  { name: 'Nutella Ghost', price: '0.6 ICP', image: 'nutella_ghost.webp' },
+  { name: 'Silver Dab Ghost', price: '0.9 ICP', image: 'silver_dab_ghost.webp' }
+];
 
 function SectionLogin() {
   return (
@@ -23,95 +18,50 @@ function SectionLogin() {
       <div
         className="section section-image section-login"
         style={{
-          backgroundImage: "url(" + require("assets/img/login-image.jpg") + ")",
+          backgroundImage: "url(" + require("assets/img/NFT_background.webp") + ")",
         }}
       >
         <Container>
           <Row>
-            <Col className="mx-auto" lg="4" md="6">
-              <Card className="card-register">
-                <h3 className="title mx-auto">Welcome</h3>
-                <div className="social-line text-center">
-                  <Button
-                    className="btn-neutral btn-just-icon mt-0"
-                    color="facebook"
-                    href="#pablo"
-                    onClick={(e) => e.preventDefault()}
-                  >
-                    <i className="fa fa-facebook-square" />
-                  </Button>
-                  <Button
-                    className="btn-neutral btn-just-icon mt-0 ml-1"
-                    color="google"
-                    href="#pablo"
-                    onClick={(e) => e.preventDefault()}
-                  >
-                    <i className="fa fa-google-plus" />
-                  </Button>
-                  <Button
-                    className="btn-neutral btn-just-icon mt-0 ml-1"
-                    color="twitter"
-                    href="#pablo"
-                    onClick={(e) => e.preventDefault()}
-                  >
-                    <i className="fa fa-twitter" />
-                  </Button>
+            <Col className="mx-auto" lg="10" md="12">
+              <div className="marketplace-content">
+                <h3 className="title mx-auto">Explore Exclusive Ghosts N' Toasts NFTs</h3>
+                <div className="nft-items row">
+                  {nftItems.map((item, index) => (
+                    <Col md="4" className="nft-item" key={index}>
+                      <div className="nft-card">
+                        <img
+                          src={require(`assets/img/${item.image}`)}
+                          alt={item.name}
+                          className="nft-image"
+                        />
+                        <div className="nft-info text-center">
+                          <h5>{item.name}</h5>
+                          <p>{item.price}</p>
+                          <Button className="btn-round" color="primary">
+                            View Details
+                          </Button>
+                        </div>
+                      </div>
+                    </Col>
+                  ))}
                 </div>
-                <Form className="register-form">
-                  <label>Email</label>
-                  <InputGroup className="form-group-no-border">
-                    <InputGroupAddon addonType="prepend">
-                      <InputGroupText>
-                        <i className="nc-icon nc-email-85" />
-                      </InputGroupText>
-                    </InputGroupAddon>
-                    <Input placeholder="Email" type="email" />
-                  </InputGroup>
-                  <label>Password</label>
-                  <InputGroup className="form-group-no-border">
-                    <InputGroupAddon addonType="prepend">
-                      <InputGroupText>
-                        <i className="nc-icon nc-key-25" />
-                      </InputGroupText>
-                    </InputGroupAddon>
-                    <Input placeholder="Password" type="password" />
-                  </InputGroup>
+                <div className="col text-center mt-4">
                   <Button
-                    block
                     className="btn-round"
-                    color="danger"
-                    type="button"
+                    color="neutral"
+                    href="/marketplace"
+                    size="lg"
+                    target="_blank"
                   >
-                    Register
-                  </Button>
-                </Form>
-                <div className="forgot">
-                  <Button
-                    className="btn-link"
-                    color="danger"
-                    href="#pablo"
-                    onClick={(e) => e.preventDefault()}
-                  >
-                    Forgot password?
+                    Visit Full Marketplace
                   </Button>
                 </div>
-              </Card>
-              <div className="col text-center">
-                <Button
-                  className="btn-round"
-                  outline
-                  color="neutral"
-                  href="/register-page"
-                  size="lg"
-                  target="_blank"
-                >
-                  View Register Page
-                </Button>
               </div>
             </Col>
           </Row>
         </Container>
-      </div>{" "}
+      </div>
     </>
   );
 }

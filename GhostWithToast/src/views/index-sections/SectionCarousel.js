@@ -1,4 +1,3 @@
-
 import React from "react";
 
 // reactstrap components
@@ -17,14 +16,40 @@ import {
 
 const items = [
   {
-    src: require("assets/img/carousel_pic_1.webp")
+    src: require("assets/img/games/flappy_ghosts.webp"),
+    altText: "Flappy Ghosts",
+    caption: "Flappy Ghosts: Tap to fly through obstacles!"
   },
   {
-    src: require("assets/img/carousel_pic_2.webp")
+    src: require("assets/img/games/ghost_crush.webp"),
+    altText: "Ghost Crush",
+    caption: "Ghost Crush: Match and crush ghosts n' toasts!"
   },
   {
-    src: require("assets/img/carousel_pic_3.webp")
+    src: require("assets/img/games/ghost_machines.png"),
+    altText: "Ghost Machine",
+    caption: "Ghost Machines: Control the claws and win big!"
   },
+  {
+    src: require("assets/img/games/ghost_runner.png"),
+    altText: "Ghost Runner",
+    caption: "Ghost Runner: Dash and dodge through spooky levels!"
+  },
+  {
+    src: require("assets/img/games/ghost_slots.png"),
+    altText: "Ghost Slots",
+    caption: "Ghost Slots: Try your luck with ghost-themed slots!"
+  },
+  {
+    src: require("assets/img/games/snake_ghost.webp"),
+    altText: "Snake Ghost",
+    caption: "Snake Ghost: Eat to grow and avoid the walls!"
+  },
+  {
+    src: require("assets/img/games/angry_ghosts.webp"),
+    altText: "Angry Ghosts",
+    caption: "Angry Ghosts: Launch and smash through levels!"
+  }
 ];
 
 function SectionCarousel() {
@@ -52,7 +77,7 @@ function SectionCarousel() {
   };
   return (
     <>
-      <div className="section pt-o" id="carousel">
+      <div className="section pt-0" id="carousel">
         <Container>
           <Row>
             <Col className="ml-auto mr-auto" md="8">
@@ -67,17 +92,17 @@ function SectionCarousel() {
                     activeIndex={activeIndex}
                     onClickHandler={goToIndex}
                   />
-                  {items.map((item) => {
+                  {items.map((item, index) => {
                     return (
                       <CarouselItem
                         onExiting={onExiting}
                         onExited={onExited}
-                        key={item.src}
+                        key={index}
                       >
                         <img src={item.src} alt={item.altText} />
                         <CarouselCaption
                           captionText={item.caption}
-                          captionHeader=""
+                          captionHeader={item.altText}
                         />
                       </CarouselItem>
                     );
@@ -113,7 +138,7 @@ function SectionCarousel() {
             </Col>
           </Row>
         </Container>
-      </div>{" "}
+      </div>
     </>
   );
 }

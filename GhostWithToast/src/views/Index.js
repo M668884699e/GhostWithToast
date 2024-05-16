@@ -8,9 +8,10 @@ import DemoFooter from "components/Footers/DemoFooter.js";
 
 // index sections
 import SectionCarousel from "views/index-sections/SectionCarousel.js";
-import SectionDark from "views/index-sections/SectionDark.js";
-import SectionProgress from "./index-sections/SectionProgress";
-import SectionDownload from "./index-sections/SectionDownload";
+import SectionDark from "views/index-sections/SectionDark";
+import SectionDownload from "./index-sections/IntroAndRoadmap";
+import SectionNotifications from "./index-sections/SectionNotifications";
+import SectionLogin from "./index-sections/SectionLogin";
 
 function Index() {
   document.documentElement.classList.remove("nav-open");
@@ -27,6 +28,7 @@ function Index() {
       <div className="main">
         <SectionDownload />
         <SectionCarousel />
+        <SectionLogin/>
         <SectionDark />
         <DemoFooter />
       </div>
