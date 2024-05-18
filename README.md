@@ -4,7 +4,8 @@
   <img src="./GhostWithToast/src/assets/img/ghostwithtoastlogo.png" alt="Ghosts N' Toasts" style="width: 100px; height: auto;">
 </a>
 
-Our website: https://m668884699e.github.io/index
+
+Visit our website: https://m668884699e.github.io/index
 
 ## BUY GHOSTS N' TOASTS ($GNT.X)
 
