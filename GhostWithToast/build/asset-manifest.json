@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/GhostsN-Toasts/static/css/main.0bdc0fa0.css",
-    "main.js": "/GhostsN-Toasts/static/js/main.3f5a869f.js",
+    "main.js": "/GhostsN-Toasts/static/js/main.07f19dcd.js",
     "static/media/ghost_slots.png": "/GhostsN-Toasts/static/media/ghost_slots.f9a0829cd592c80c5b8c.png",
     "static/media/ghost_machines.png": "/GhostsN-Toasts/static/media/ghost_machines.0217d720bb3f7676a003.png",
     "static/media/ghost_runner.png": "/GhostsN-Toasts/static/media/ghost_runner.cfd8c95f21b89b3e3092.png",
@@ -72,10 +72,10 @@
     "static/media/nutellaghost.webp:Zone.Identifier": "/GhostsN-Toasts/static/media/nutellaghost.webp:Zone.31d6cfe0d16ae931b73c.Identifier",
     "static/media/silver_dab_ghost.webp:Zone.Identifier": "/GhostsN-Toasts/static/media/silver_dab_ghost.webp:Zone.31d6cfe0d16ae931b73c.Identifier",
     "main.0bdc0fa0.css.map": "/GhostsN-Toasts/static/css/main.0bdc0fa0.css.map",
-    "main.3f5a869f.js.map": "/GhostsN-Toasts/static/js/main.3f5a869f.js.map"
+    "main.07f19dcd.js.map": "/GhostsN-Toasts/static/js/main.07f19dcd.js.map"
   },
   "entrypoints": [
     "static/css/main.0bdc0fa0.css",
-    "static/js/main.3f5a869f.js"
+    "static/js/main.07f19dcd.js"
   ]
 }
