@@ -1,6 +1,8 @@
 # Ghosts N' Toasts
 
-![Ghost With Toast Logo](./GhostWithToast/src/assets/img/ghostwithtoastlogo.png)
+<a href="https://m668884699e.github.io/GhostsN-Toasts/">
+  <img src="./GhostWithToast/src/assets/img/ghostwithtoastlogo.png" alt="Ghosts N' Toasts" style="width: 100px; height: auto;">
+</a>
 
 ## BUY GHOSTS N' TOASTS ($GNT.X)
 
@@ -73,9 +75,9 @@ In the hushed hours of the night, a friendly ghost haunts the cozy kitchen, eage
 
 ## Connect with Us
 
-[![Facebook]](https://www.facebook.com/your_facebook_page)
-[![Twitter]](https://www.instagram.com/ghostsntoastsgames/)
-[![Instagram]](https://www.instagram.com/ghostsntoastsgames/)
+[Facebook](https://www.facebook.com/your_facebook_page)
+[Twitter](https://www.instagram.com/ghostsntoastsgames/)
+[Instagram](https://www.instagram.com/ghostsntoastsgames/)
 
 ---
 
