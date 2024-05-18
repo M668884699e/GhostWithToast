@@ -1,6 +1,7 @@
 {
-  "name": "paper-kit-react",
+  "name": "ghosts-n-toasts-website",
   "version": "1.3.2",
+  "homepage": "https://M668884699e.github.io/GhostsN-Toasts/website",
   "dependencies": {
     "classnames": "2.3.2",
     "gh-pages": "^6.1.1",
@@ -16,7 +17,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d build -b gh-pages -d website",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -74,7 +75,5 @@
     "react-template",
     "react-theme"
   ],
-  "author": "M668884699e",
-  "homepage": "https://M668884699e.github.io/GhostsN-Toasts/"
-
+  "author": "M668884699e"
 }
