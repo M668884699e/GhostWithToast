@@ -5,7 +5,7 @@
 </a>
 
 
-Visit our website: https://m668884699e.github.io/index
+Visit our website: https://m668884699e.github.io/GhostsN-Toasts/
 
 ## BUY GHOSTS N' TOASTS ($GNT.X)
 
