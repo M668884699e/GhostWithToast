@@ -81,5 +81,6 @@ In the hushed hours of the night, a friendly ghost haunts the cozy kitchen, eage
 
 ## Built on ICP Dfinity
 
-[![ICP Dfinity](./GhostWithToast/src/assets/img/internet-computer-icp-logo.png)](https://internetcomputer.org/)
-
+<a href="https://internetcomputer.org/">
+  <img src="./GhostWithToast/src/assets/img/internet-computer-icp-logo.png" alt="ICP Dfinity" style="width: 100px; height: auto;">
+</a>
