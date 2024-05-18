@@ -1,7 +1,7 @@
 # Ghosts N' Toasts
 
 <a href="https://m668884699e.github.io/GhostsN-Toasts/">
-  <img src="./GhostWithToast/src/assets/img/ghostwithtoastlogo.png" alt="Ghosts N' Toasts" style="width: 100px; height: auto;">
+  <img src="./Website/GhostWithToast/GhostWithToast/src/assets/img/ghostwithtoastlogo.png" alt="Ghosts N' Toasts" style="width: 100px; height: auto;">
 </a>
 
 
@@ -50,7 +50,7 @@ Welcome to **Ghosts N' Toasts**, where gaming meets blockchain technology. Disco
 ### Flappy Ghosts
 - **Flappy Ghosts**: Tap to fly through obstacles!
 
-![Flappy Ghosts](./GhostWithToast/src/assets/img/games/flappy_ghosts.webp)
+![Flappy Ghosts](./Website/GhostWithToast/GhostWithToast/src/assets/img/games/flappy_ghosts.webp)
 
 ---
 
@@ -58,14 +58,14 @@ Welcome to **Ghosts N' Toasts**, where gaming meets blockchain technology. Disco
 
 | NFT Name | Image | Price |
 | -------- | ----- | ----- |
-| Avocado Ghost | ![Avocado Ghost](./GhostWithToast/src/assets/img/avoc_ghost.webp) | 0.7 ICP |
-| Bronze Tier Ghost | ![Bronze Tier Ghost](./GhostWithToast/src/assets/img/bronze_tier_ghost.webp) | 0.9 ICP |
-| Diamond Ghost | ![Diamond Ghost](./GhostWithToast/src/assets/img/diamondghost.webp) | 1.2 ICP |
-| Gamestop Baby Ghost | ![Gamestop Baby Ghost](./GhostWithToast/src/assets/img/gamestop_baby_ghost.webp) | 0.8 ICP |
-| God Tier Ghost | ![God Tier Ghost](./GhostWithToast/src/assets/img/godtierghost.webp) | 2.5 ICP |
-| Gold Diamond Ghost | ![Gold Diamond Ghost](./GhostWithToast/src/assets/img/golddiamondghost.webp) | 1.5 ICP |
-| Nutella Ghost | ![Nutella Ghost](./GhostWithToast/src/assets/img/nutella_ghost.webp) | 0.6 ICP |
-| Silver Dab Ghost | ![Silver Dab Ghost](./GhostWithToast/src/assets/img/silver_dab_ghost.webp) | 0.9 ICP |
+| Avocado Ghost | ![Avocado Ghost](./Website/GhostWithToast/GhostWithToast/src/assets/img/avoc_ghost.webp) | 0.7 ICP |
+| Bronze Tier Ghost | ![Bronze Tier Ghost](./Website/GhostWithToast/GhostWithToast/src/assets/img/bronze_tier_ghost.webp) | 0.9 ICP |
+| Diamond Ghost | ![Diamond Ghost](./Website/GhostWithToast/GhostWithToast/src/assets/img/diamondghost.webp) | 1.2 ICP |
+| Gamestop Baby Ghost | ![Gamestop Baby Ghost](./Website/GhostWithToast/GhostWithToast/src/assets/img/gamestop_baby_ghost.webp) | 0.8 ICP |
+| God Tier Ghost | ![God Tier Ghost](./Website/GhostWithToast/GhostWithToast/src/assets/img/godtierghost.webp) | 2.5 ICP |
+| Gold Diamond Ghost | ![Gold Diamond Ghost](./Website/GhostWithToast/GhostWithToast/src/assets/img/golddiamondghost.webp) | 1.5 ICP |
+| Nutella Ghost | ![Nutella Ghost](./Website/GhostWithToast/GhostWithToast/src/assets/img/nutella_ghost.webp) | 0.6 ICP |
+| Silver Dab Ghost | ![Silver Dab Ghost](./Website/GhostWithToast/GhostWithToast/src/assets/img/silver_dab_ghost.webp) | 0.9 ICP |
 
 ---
 
@@ -87,5 +87,5 @@ In the hushed hours of the night, a friendly ghost haunts the cozy kitchen, eage
 ## Built on ICP Dfinity
 
 <a href="https://internetcomputer.org/">
-  <img src="./GhostWithToast/src/assets/img/internet-computer-icp-logo.png" alt="ICP Dfinity" style="width: 100px; height: auto;">
+  <img src="./Website/GhostWithToast/GhostWithToast/src/assets/img/internet-computer-icp-logo.png" alt="ICP Dfinity" style="width: 100px; height: auto;">
 </a>
